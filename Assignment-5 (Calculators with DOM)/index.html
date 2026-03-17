@@ -1,0 +1,112 @@
+<!-- Bolier-Plate Code -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Calculators </title>
+ </head>
+ <body>
+  <!-- Heading and Line-Brake Tag -->
+   <h1> Calculators: </h1><br><hr>
+
+   <!--     Percentage Calculator             -->
+   <!-- Heading Tag -->
+  <h2>i. Percentage Calculator</h2>
+
+  <!-- Form Tag -->
+   <form >
+
+    <!-- Label and Input Tag + Attribute(for,type,name,id,placeholder,required)-->
+    <label for="tm">Total Marks</label>
+    <input type="text" name="tm" id="tm1" placeholder="Enter your Total-Mark" required>
+
+    <!-- Label and Input Tag + Attribute(for,type,name,id,placeholder,required)-->
+    <label for="obt">Obtain Marks</label>
+    <input type="text" name="obt" id="obt1" placeholder="Enter your Obtain-Marks" required>
+
+    <!-- Button,Horizontal-Line and Line-Brake Tag + Attribute(type) -->
+    <button type="submit" onclick="getPercentage()">Submit</button>
+
+   </form><br><hr>
+
+   
+   <!--        BMI Calculator                  -->
+           <!-- Heading Tag -->
+  <h2>ii. BMI Calculator</h2>
+
+  <!-- Form Tag -->
+   <form >
+
+    <!-- Label and Input Tag + Attribute(for,type,name,id,placeholder,required)-->
+    <label for="weight">Weight</label>
+    <input type="text" name="weight" id="weight" placeholder="Enter your Weight" required>
+
+    <!-- Label and Input Tag + Attribute(for,type,name,id,placeholder,required)-->
+    <label for="height">Height</label>
+    <input type="text" name="height" id="height" placeholder="Enter your Height" required>
+
+    <!-- Button,Horizontal-Line and Line-Brake Tag + Attribute(type) -->
+    <button type="submit" onclick="getBMI()">Submit</button>
+    
+   </form><br><hr>
+
+   <!--         BMR Calculator                 -->
+            <!-- Heading Tag -->
+  <h2>iii. BMR Calculator</h2>
+
+  <!-- Form Tag -->
+   <form >
+
+    <!-- Label and Input Tag + Attribute(for,type,name,id,placeholder,required)-->
+    <label for="height1">Height</label>
+    <input type="text" name="height1" id="height1" placeholder="Enter your Height" required>
+
+    <!-- Label and Input Tag + Attribute(for,type,name,id,placeholder,required)-->
+    <label for="weight1">Weight</label>
+    <input type="text" name="weight1" id="weight1" placeholder="Enter your Weight" required>
+
+     <!-- Label and Input Tag + Attribute(for,type,name,id,placeholder,required)-->
+    <label for="age1">Age</label>
+    <input type="text" name="age1" id="age1" placeholder="Enter your Age" required>
+
+    <!-- Button,Horizontal-Line and Line-Brake Tag + Attribute(type) -->
+    <button type="submit" onclick="getBMR()">Submit</button>
+    
+   </form><br><hr>
+
+   <!--     Ushr Calculator             -->
+   <!-- Heading Tag -->
+  <h2>iv. Ushr Calculator</h2>
+
+  <!-- Form Tag -->
+   <form >
+
+    <!-- Label and Input Tag + Attribute(for,type,name,id,placeholder,required)-->
+    <label for="ushr">Total Fasal</label>
+    <input type="text" name="ushr" id="ushr" placeholder="Enter your Total-Fasal" required>
+
+    <!-- Button,Horizontal-Line and Line-Brake Tag + Attribute(type) -->
+    <button type="submit" onclick="getUshr()">Submit</button>
+
+   </form><br><hr>
+
+   <!--     Zakat  Calculator             -->
+   <!-- Heading Tag -->
+  <h2>v. Zakat Calculator</h2>
+
+  <!-- Form Tag -->
+   <form >
+
+    <!-- Label and Input Tag + Attribute(for,type,name,id,placeholder,required)-->
+    <label for="zakat">Zakatable Amount</label>
+    <input type="text" name="zakat" id="zakat" placeholder="Enter your Zakatable Amount" required>
+
+    <!-- Button and Line-Brake Tag + Attribute(type) -->
+    <button type="submit" onclick="getZakat()">Submit</button>
+
+   </form>
+
+   <script src="./script.js"></script>
+ </body>
+ </html>
