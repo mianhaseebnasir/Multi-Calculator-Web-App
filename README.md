@@ -23,9 +23,9 @@ Calculates Basal Metabolic Rate based on:<br>
 <li>Weight</li>
 <li>Age</li>
 <h3>4️⃣ Ushr Calculator</h3>
-Calculates Ushr based on total agricultural production<br>
+<li>Calculates Ushr based on total agricultural production</li><br>
 <h3>5️⃣ Zakat Calculator</h3>
-Calculates Zakat based on zakatable amount<br>
+<li>Calculates Zakat based on zakatable amount</li><br>
 <h1>🛠️ Technologies Used</h1>
 <li>HTML5 – Structure of the web page</li>
 <li>JavaScript – Logic and calculations</li>
@@ -59,3 +59,5 @@ Feel free to fork this repository and improve the project.<br>
 <h1>📄 License</h1>
 This project is for educational purposes and is free to use.<br>
 <h1>👨‍💻 Author</h1>
+<b>Mian Haseeb Nasir</b><br>
+Full Stack Developer | Teacher | AI Enthusias
