@@ -10,15 +10,15 @@ The purpose of this project is to demonstrate fundamental front-end development 
 <h1>🚀 Features :</h1>
 This application includes the following calculators:<br>
 <h3>1️⃣ Percentage Calculator :</h3>
-Calculates percentage based on:<br>
+Calculates percentage based on<br>
 <li>Total Marks</li>
 <li>Obtained Marks</li>
 <h3>2️⃣ BMI Calculator :</h3>
-Calculates Body Mass Index using:<br>
+Calculates Body Mass Index using<br>
 <li>Weight</li>
 <li>Height</li>
 <h3>3️⃣ BMR Calculator :</h3>
-Calculates Basal Metabolic Rate based on:<br>
+Calculates Basal Metabolic Rate based on<br>
 <li>Height</li>
 <li>Weight</li>
 <li>Age</li>
